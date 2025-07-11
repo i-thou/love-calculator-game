@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Love | Calculator</title>
+</head>
+<body>
+    
+    <main>
+        <div id="content-box">
+            <h1>Love Calculator</h1>
+            <p>Enter your name and your soul mate name let us check</p>
+            <br>
+            <div class="container">
+                <div class="input-container">
+                    <label for="your-name">Your Name</label>
+                    <input type="text" id="your-name" name="your-name" placeholder="Enter your name" required maxlength="30" minlength="2" autocomplete="on">
+                </div>
+                <div class="input-container">
+                    <label for="crush-name">Crush's Name</label>
+                    <input type="text" id="crush-name" name="crush-name" placeholder="Enter your crush name" required maxlength="30" minlength="2" autocomplete="on">
+                </div>
+            </div>
+            <button id="calculate">Calculate</button>
+            <div class="result-container">
+                <h2 id="result-message"></h2>
+                <p id="result-percentage"></p>
+            </div>
+        </div>
+    </main>
+    <audio src="./assets/Charlie Puth - Attention [Official Video].mp3" autoplay loop></audio>
+    <script src="index.js"></script>
+</body>
+</html>
